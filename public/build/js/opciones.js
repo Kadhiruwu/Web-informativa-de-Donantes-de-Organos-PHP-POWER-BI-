@@ -1,0 +1,1 @@
+function handleSelectChange(a){var o=a.target.value;"dashboard1"===o&&(window.location.href="/user/dashboard1"),"dashboard2"===o&&(window.location.href="/user/dashboard2"),"dashboard3"===o&&(window.location.href="/user/dashboard3"),"dashboard4"===o&&(window.location.href="/user/dashboard4"),o&&(window.location.href="/user/"+o+"?selected="+o)}

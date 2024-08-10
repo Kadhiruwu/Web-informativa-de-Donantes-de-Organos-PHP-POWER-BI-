@@ -1,0 +1,23 @@
+/*base*/
+@import 'base/mixins';
+@import 'base/normalize';
+@import 'base/variables';
+@import 'base/globales';
+@import 'base/tipografia';
+
+
+/*Componenetes*/
+@import 'components/alertas';
+@import 'components/botones';
+@import 'components/sweetAlerts';
+
+/*Layout*/
+@import 'layout/header';
+
+/*prueba*/
+@import 'prueba/principal';
+@import 'prueba/nosotros';
+@import 'prueba/articulos';
+@import 'prueba/login';
+@import 'prueba/contactanos';
+@import 'prueba/dashboards';

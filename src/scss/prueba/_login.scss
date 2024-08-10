@@ -1,0 +1,108 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+.generalbody{
+    background-color: black;
+    height: 200%;
+}
+.contenidototal{
+    display: block;
+
+    @media (min-width: 850px) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
+}
+
+.imagenlogin{
+    background-image: url(/imagenes/imagenlogin.jpg);
+    height: 30rem;
+    background-size: cover;
+    background-position: center center;
+    @media (min-width: 850px) {
+        height: 100vh;
+
+      }
+
+}
+
+.textotitulo{
+    color: rgb(221, 218, 218);
+    padding: 2.5rem 2rem;
+  }
+
+.contenido_login{
+   
+    h1{
+        color: white;
+    }
+
+    p{
+        color: white;
+    }
+    label{
+        color: white;
+    }
+    padding: 2rem ;
+  
+}
+
+.formulario{
+    margin-top: 5rem;
+    width: 100%;
+
+}
+
+.campo{
+    display: flex;
+    margin-bottom: 3rem;
+    align-items: center;
+    @media (max-width: 400px) {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    label{
+        flex: 0 0 10rem;
+
+        @media (max-width: 400px) {
+            flex: 0 0 3rem;
+        }
+    }
+
+    input{
+        width: 100%;
+        flex: 1;
+        border: none;
+        padding: 1.5rem 2rem;
+        border-radius: 1rem;
+
+    }
+
+}
+
+.boton{
+    margin-top: 3rem;
+    color: white;
+    background-color: rgb(61, 155, 209);
+    padding: 1.5rem;
+    font-weight: bold;
+    font-size: 2rem;
+    display: block;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    width: 100%;
+    &:hover{
+        background-color: rgb(120, 190, 231); 
+    }
+    @media (min-width: 850px) {
+     width: auto;
+
+      }
+}
+
+.donaorganos{
+    margin-top: 3rem;
+    h3{
+        color: white;
+    }
+}

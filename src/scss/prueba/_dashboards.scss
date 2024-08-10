@@ -1,0 +1,18 @@
+.da1{
+    min-height: 80rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    iframe{
+        height: 100%;
+        width: auto;
+        border-radius: 1.5rem;
+        margin: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
